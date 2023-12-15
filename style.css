@@ -1,0 +1,106 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #000;
+	font-family: 'TT Firs Neue';
+	background-image: url(/images/seamless\ red\ topo\ pattern.png);
+	background-repeat: repeat;
+}
+
+@font-face {
+	font-family: 'ttfirsneue';
+	src: url('fonts/TT\ Firs\ Neue\ Trial\ Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+
+	font-family: 'ttfirsneue';
+	src: url('fonts/TTFirsNeue-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: bold;
+
+	font-family: 'ttfirsneue';
+	src: url('fonts/TTFirsNeue-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+h1 {
+	font-family: 'ttfirsneue';
+}
+
+h1.bold {
+	font-family: "ttfirsneue";
+	font-weight: 700;
+	font-style: bold;
+}
+
+h2 {
+	font-family: 'ttfirsneue';
+}
+
+a {
+	font-family: 'ttfirsneue';
+	font-weight: 700;
+	text-decoration: none;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #000;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	color: #CC1126;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color:#D39364;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #D39364;
+	color: #000;
+}
+
+table {
+	color: white;
+	font-family: 'ttfirsneue';
+}
+
+th {
+	font-weight: 700;
+}
+
+td {
+	font-weight: 400;
+}
+
+p {
+	font-family: 'ttfirsneue';
+	color: white;
+}
+
+.button {
+	font-family: 'ttfirsneue';
+	background-color: #CC1126; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 15px;
+}
